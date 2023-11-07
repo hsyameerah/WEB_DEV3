@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        table, th, td {
+        border: 2px solid black; margin-left: auto; margin-right: auto;
+        border-collapse: collapse;
+        }
+        body {
+            font-family: Arial, sans-serif, Bold;
+            line-height: 1.6;
+        }
+
+        .header {
+            background-color: #640247;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .header h1 {
+            margin: 0;
+        }
+
+        .content {
+            padding: 20px;
+        }
+
+        .section-header {
+            margin-bottom: 10px;
+        }
+
+        .image-container {
+        display: flex;
+        justify-content: space-around;
+        }
+
+        .image-container img {
+        max-width: 100%;
+        height: auto;
+        }
+        .hobbies {
+            margin-bottom: 20px;
+        }
+
+        .hobbies ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .hobbies ul li {
+            margin-bottom: 10px;
+        }
+
+        .campus-life img {
+            width: 40%;
+            height: 10%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1 style="color:rgb(247, 247, 252);">NUR HASYA AMEERAH BINTI NAZRI</h1>
+        <p style="color:rgb(243, 241, 241);">Computer Science Student</p>
+    </div>
+
+    <div class="content">
+        <div class="section-header">
+            <h2>Biodata</h2>
+        </div>
+
+        <p>
+        <table class="center">
+            <tr>
+                <th>Name</th>
+                <td colspan="1">Nur Hasya Ameerah Binti Nazri </td>
+                <td colspan="2"><img src="passportphoto.png" height="180"></td>
+            </tr>
+            <tr>
+                <th>Date of Birth</th>
+                <td colspan="3">8 October 2002</td>
+            </tr>
+            <tr>
+                <th>Religion</th>
+                <td colspan="3">Islam</td>
+            </tr>
+                <tr>
+                <th>Race</th>
+                <td colspan="3">Malay</td>
+            </tr>
+            <tr>
+                <th rowspan="4">Address</th>
+                <td colspan="2">Street</td>
+                <td>No.28 Kampung Ketapang, Temonyong</td>
+            </tr>
+            <tr>
+                <td colspan="2">Town</td>
+                <td>Kedawang</td>
+            </tr>
+            <tr>
+                <td colspan="2">District</td>
+                <td>Pulau Langkawi</td>
+            </tr>
+            <tr>
+                <td colspan="2">State</td>
+                <td>Kedah</td>
+            </tr>
+            <tr>
+                <th rowspan="3">Contact</th>
+                <td colspan="2">Mobile Phone</td>
+                <td>0138901256</td>
+            </tr>
+            <tr>
+                <td colspan="2">Social Media</td>
+                <td>@hsyameerah</td>
+            </tr>
+            <tr>
+                <td colspan="2">Website</td>
+                <td>hsyameerah@gmail.com</td>
+            </tr>
+            <tr>
+                <th>Course and Institution</th>
+                <td colspan="3">Bachelor of Computer Sciences (Software Engineering) with Honours</td>
+            </tr>
+            <tr>
+                <th>Programming Skills</th>
+                <td colspan="3">Java and HTML</td>
+            </tr>
+            <tr>
+                <th>Personal Interest</th>
+                <td colspan="3">Reading fiction books</td>
+            </tr>
+            <tr>
+                <th>Future plan in 2024</th>
+                <td colspan="3">To be graduated</td>
+            </tr>
+            </table>
+        </p>
+
+        <div class="section-header">
+            <h2>Hobbies</h2>
+        </div>
+
+        <div class="hobbies">
+            <ul>
+                <li>Travelling</li>
+                <div class="image-container">
+                    <ul><img src="Travelling (1).png" height="" width="230"></ul>
+                    <ul><img src="Travelling (2).png" height="" width="230"></ul>
+                </div>
+                <div class="image-container">
+                    <ul><img src="Travelling (3).png" height="" width="230"></ul>
+                    <ul><img src="Travelling (4).png" height="" width="230"></ul>
+                </div>
+            </ul>
+            <ul>
+                <li>Playing Netball</li>
+                <div class="image-container">
+                    <ul><img src="Netball.png" height="" width="330"></ul>
+                    <ul><img src="Netball (2).png" height="" width="230"></ul>
+                </div>
+            </ul>
+            <ul>
+                <li>Taking Pictures of Flowers</li>
+                <div class="image-container">
+                    <ul><img src="Flowers (5).png" height="" width="200"></ul>
+                    <ul><img src="Flowers (4).png" height="" width="200"></ul>
+                </div>
+                <div class="image-container">
+                    <ul><img src="Flowers (2).png" height="" width="200"></ul>
+                    <ul><img src="Flowers (3).png" height="" width="200"></ul>
+                </div>
+            </ul>
+        </div>
+
+        <div class="section-header">
+            <h2>Campus Life</h2>
+        </div>
+
+        <div class="image-container">
+            <ul><img src="Campus Life.png" height="100" width="200"></ul>
+            <ul><img src="campus Life (2).png" height="" width="200"></ul>
+        </div>
+        <div class="image-container">
+            <ul><img src="campus Life (3).png" height="100" width="200"></ul>
+        </div>
+
+        <div class="section-header">
+            <h2>Group Photo</h2>
+        </div>
+
+        <div class="image-container">
+            <ul><img src="Group photo (1).png" height="100" width="200"></ul>
+            <ul><img src="Group photo (4).png" height="" width="200"></ul>
+        </div>
+        <div class="image-container">
+            <ul><img src="Group photo (2).png" height="100" width="200"></ul>
+        </div>
+    </div>
+</body>
+</html>
+        
